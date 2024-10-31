@@ -6,14 +6,10 @@ export async function executeQuery(query, timeout) {
     const sources = new Set();
     return new Promise(async (resolve, reject) => {
         const engine = await new QueryEngineFactory().create({ config_provenance });
-        const results = [];
         const timeoutID = setTimeout(() => {
             console.log('Query timeout');
-            resolve(
-                {
-                    results: "TIMEOUT",
-                    execution_time: `TIMEOUT ${timeout}`
-                }
+            reject(
+                "TIMEOUT"
             );
         }, timeout);
         let bindingsStream;
@@ -28,7 +24,7 @@ export async function executeQuery(query, timeout) {
 
 
         bindingsStream.on('data', (binding) => {
-            const currentSources = JSON.parse(binding.get("_source").value)
+            const currentSources = JSON.parse(binding.get("_source").value);
             for (const source of currentSources) {
                 sources.add(source);
             }

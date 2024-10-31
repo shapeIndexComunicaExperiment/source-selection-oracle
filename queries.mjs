@@ -3,6 +3,8 @@ import { readdirSync, readFileSync } from 'node:fs';
 
 const QUERY_FOLDER = "./queries";
 
+const REGEX_SEED_IRIS = /(http:\/\/localhost:3000\/pods\/\d+\/.*)>/ugm;
+
 export function getQueries(queriesToExecute) {
     const fileList = readdirSync(QUERY_FOLDER);
     const queries = new Map();
@@ -16,4 +18,8 @@ export function getQueries(queriesToExecute) {
         }
     }
     return queries;
+}
+
+function getSeedIRIs(query){
+    const matches = query.matchAll(REGEX_SEED_IRIS);
 }
