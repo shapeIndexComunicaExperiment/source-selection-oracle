@@ -1,0 +1,4 @@
+[submodule "comunica-feature-link-traversal"]
+	path = comunica-feature-link-traversal
+	url = https://github.com/RubenEschauzier/comunica-feature-link-traversal.git
+	branch= feature/source-attribution-config

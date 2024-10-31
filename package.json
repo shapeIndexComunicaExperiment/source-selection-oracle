@@ -1,4 +1,8 @@
 {
   "name": "source-selection-oracle",
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.1.1",
+  "workspaces": [
+    "./comunica-feature-link-traversal/packages/*",
+    "./comunica-feature-link-traversal/engines/*"
+  ]
 }
