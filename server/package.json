@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "packageManager": "yarn@4.5.1",
+  "dependencies": {
+    "componentsjs": "^6.3.0",
+    "rdf-dataset-fragmenter": "^2.8.0",
+    "rdf-parse": "^2.3.3",
+    "solidbench": "^2.0.0"
+  },
+  "scripts": {
+    "solidbench-generate": "yarn node node_modules/.bin/solidbench generate",
+    "solidbench-serve": "yarn node node_modules/.bin/solidbench serve --config ./server-config.json",
+    "clean": "rm -rf out-enhanced out-fragments out-queries out-snb out-validate out-validate-params/"
+  }
+}

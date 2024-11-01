@@ -4348,6 +4348,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:^12.1.0":
+  version: 12.1.0
+  resolution: "commander@npm:12.1.0"
+  checksum: 10c0/6e1996680c083b3b897bfc1cfe1c58dfbcd9842fd43e1aaf8a795fbc237f65efcc860a3ef457b318e73f29a4f4a28f6403c3d653d021d960e4632dd45bde54a9
+  languageName: node
+  linkType: hard
+
 "componentsjs@npm:^6.0.1":
   version: 6.3.0
   resolution: "componentsjs@npm:6.3.0"
@@ -6175,6 +6182,8 @@ __metadata:
 "source-selection-oracle@workspace:.":
   version: 0.0.0-use.local
   resolution: "source-selection-oracle@workspace:."
+  dependencies:
+    commander: "npm:^12.1.0"
   languageName: unknown
   linkType: soft
 
