@@ -1,4 +1,10 @@
 [submodule "comunica-feature-link-traversal"]
-	path = comunica-feature-link-traversal
+	path = generateSources/comunica-feature-link-traversal
 	url = https://github.com/RubenEschauzier/comunica-feature-link-traversal.git
 	branch= feature/source-attribution-config
+[submodule "oracle/simple-comunica-runner"]
+	path = oracle/simple-comunica-runner
+	url = https://github.com/constraintAutomaton/simple-comunica-runner.git
+[submodule "oracle/simple-solidbench-comunica-runner"]
+	path = oracle/simple-solidbench-comunica-runner
+	url = https://github.com/constraintAutomaton/simple-solidbench-comunica-runner.git
