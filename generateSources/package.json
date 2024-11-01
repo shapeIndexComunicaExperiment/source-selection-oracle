@@ -9,6 +9,6 @@
     "commander": "^12.1.0"
   },
   "scripts": {
-    "generate":"yarn node --max-old-space-size=16000 index.mjs"
+    "generate": "yarn node --max-old-space-size=16000 index.mjs"
   }
 }

@@ -1,14 +1,34 @@
 import { getQueries } from './queries.mjs';
-import { writeFile } from 'node:fs/promises';
+import { readFile, writeFile } from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';
+import { Command } from 'commander';
+
+const program = new Command();
+program
+    .name('evaluation')
+    .description('CLI program to run a SPARQL query using Comunica for the context of benchmarking')
+    .version('0.0.0')
+
+    .option('-r, --reRun <string...>', 'file with the queries to rerun', undefined)
+    .option('-t, --timeout <number>', 'timeout of a query in second', 300)
+    .option('-m, --memorySize <number>', 'memory allocated to execute a query', 15_000)
+
+    .parse(process.argv);
+
+const options = program.opts();
+const reRun = options.reRun !== undefined ? new Set(options.reRun) : undefined;
+const timeout = options.timeout * 1000;
+const memorySize = options.memorySize;
 
 const RESULT_REGEX = /response start\n(.*)\nresponse end/u;
 const runnerCommand = "./runner.mjs"
-const timeout = 10000 * 1000;
-const memorySize = 15_000;
-const querySourcesObject = {};
+let querySourcesObject = {};
 
-const groupQueries = getQueries();
+if (reRun !== undefined) {
+    querySourcesObject = JSON.parse(await readFile("../sources.json"));
+}
+
+const groupQueries = getQueries(reRun);
 
 for (const [name, queryGroup] of groupQueries) {
     querySourcesObject[name] = {};
