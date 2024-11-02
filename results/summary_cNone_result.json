@@ -1,0 +1,632 @@
+{
+  "interactive-discover-1.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-discover-2.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-discover-3.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-discover-4.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-discover-5.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-discover-6.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-discover-7.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-discover-8.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-short-1.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-short-2.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-short-3.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-short-4.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-short-5.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-short-6.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  },
+  "interactive-short-7.sparql": {
+    "v0": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v1": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v2": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v3": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    },
+    "v4": {
+      "execution_time": {
+        "average": null,
+        "min": null,
+        "max": null,
+        "std": null
+      }
+    }
+  }
+}

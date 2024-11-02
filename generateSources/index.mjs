@@ -17,7 +17,7 @@ program
 
 const options = program.opts();
 const reRun = options.reRun !== undefined ? new Set(options.reRun) : undefined;
-const timeout = options.timeout * 1000;
+const timeout = options.timeout === -1 ? undefined : options.timeout * 1000;
 const memorySize = options.memorySize;
 
 const RESULT_REGEX = /response start\n(.*)\nresponse end/u;
@@ -36,7 +36,8 @@ for (const [name, queryGroup] of groupQueries) {
         console.log(`query ${name} v${index} started`);
         try {
             const command = createCommand(runnerCommand, query, memorySize);
-            const { stdout, _stderr, error } = spawnSync(command[0], command[1], { timeout: timeout + 1000, maxBuffer: undefined });
+            const effectiveTimeout = timeout !== undefined ? timeout + 1000 : undefined;
+            const { stdout, _stderr, error } = spawnSync(command[0], command[1], { timeout: effectiveTimeout, maxBuffer: undefined });
             if (error && error.code === 'ETIMEDOUT') {
                 querySourcesObject[name][`v${index}`] = "TIMEOUT"
             }

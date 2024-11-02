@@ -1229,11 +1229,8 @@
     "v4": null
   },
   "interactive-short-3": {
-    "v0": null,
-    "v1": null,
-    "v2": null,
-    "v3": null,
-    "v4": null
+    "v0": "TIMEOUT",
+    "v1": "TIMEOUT"
   },
   "interactive-short-4": {
     "v0": [

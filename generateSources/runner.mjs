@@ -8,13 +8,13 @@ program
     .version('0.0.0')
 
     .requiredOption('-q, --query <string>', 'query to execute')
-    .requiredOption('-t, --timeout <number>', 'Timeout of the query in second')
+    .option('-t, --timeout <number>', 'Timeout of the query in second')
 
     .parse(process.argv);
 
 const options = program.opts();
 const query = options.query;
-const timeout = Number(options.timeout) * 1000;
+const timeout = options.timeout === undefined ? undefined : Number(options.timeout) * 1000;
 
 const config_provenance = "./comunica-feature-link-traversal/engines/config-query-sparql-link-traversal/config/config-solid-why-provenance.json";
 
@@ -32,12 +32,16 @@ export async function executeQuery(query, timeout) {
     const sources = new Set();
     return new Promise(async (resolve, reject) => {
         const engine = await new QueryEngineFactory().create({ config_provenance });
-        const timeoutID = setTimeout(() => {
-            console.log('Query timeout');
-            resolve(
-                "TIMEOUT"
-            );
-        }, timeout);
+        let timeoutID = undefined;
+        if (timeout !== undefined) {
+            timeoutID = setTimeout(() => {
+                console.log('Query timeout');
+                resolve(
+                    "TIMEOUT"
+                );
+            }, timeout);
+        }
+
         let bindingsStream;
 
         try {
@@ -58,12 +62,16 @@ export async function executeQuery(query, timeout) {
 
         bindingsStream.on('error', (err) => {
             console.error(err);
-            clearTimeout(timeoutID);
+            if(timeout!==undefined){
+                clearTimeout(timeoutID);
+            }
             resolve(err);
         });
 
         bindingsStream.on('end', () => {
-            clearTimeout(timeoutID);
+            if(timeout!==undefined){
+                clearTimeout(timeoutID);
+            }
             resolve(
                 Array.from(sources)
             );
