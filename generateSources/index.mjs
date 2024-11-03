@@ -9,14 +9,16 @@ program
     .description('CLI program to run a SPARQL query using Comunica for the context of benchmarking')
     .version('0.0.0')
 
-    .option('-r, --reRun <string...>', 'file with the queries to rerun', undefined)
+    .option('-r, --reRun <string...>', 'queries to rerun', undefined)
+    .option('-rv, --reRunVersion <number...>', 'versions of the queries to rerun', undefined)
     .option('-t, --timeout <number>', 'timeout of a query in second', 300)
-    .option('-m, --memorySize <number>', 'memory allocated to execute a query', 15_000)
+    .option('-m, --memorySize <number>', 'memory allocated to execute a query', 10_000)
 
     .parse(process.argv);
 
 const options = program.opts();
 const reRun = options.reRun !== undefined ? new Set(options.reRun) : undefined;
+const reRunVersion = options.reRunVersion !== undefined ? options.reRunVersion : undefined;
 const timeout = Number(options.timeout) === -1 ? -1 : options.timeout * 1000;
 const memorySize = options.memorySize;
 
@@ -28,11 +30,14 @@ if (reRun !== undefined) {
     querySourcesObject = JSON.parse(await readFile("../sources.json"));
 }
 
-const groupQueries = getQueries(reRun);
+const groupQueries = getQueries(reRun,reRunVersion);
 
 for (const [name, queryGroup] of groupQueries) {
     querySourcesObject[name] = {};
     for (const [index, query] of queryGroup.entries()) {
+        if(query===null){
+            continue;
+        }
         console.log(`query ${name} v${index} started`);
         try {
             const command = createCommand(runnerCommand, query, memorySize);
