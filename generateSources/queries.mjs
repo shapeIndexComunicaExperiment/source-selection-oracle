@@ -7,6 +7,9 @@ export function getQueries(queriesToExecute, reRunVersion) {
     const fileList = readdirSync(QUERY_FOLDER);
     const queries = new Map();
     for (const file of fileList) {
+        if(file ==="parsed"){
+            continue;
+        }
         const queryName = file.replace(/\.[^/.]+$/, "");
 
         if (queriesToExecute === undefined || queriesToExecute.has(queryName)) {
