@@ -3,6 +3,15 @@
 An experiment to generate the query relevant sources of the solidbench queries.
 The queries are available at `./queries/`.
 
+## Dependencies
+ - [Nodejs version 22](https://nodejs.org/en)
+
+Has only been tested on Linux
+
+## Installation
+
+Make sure that all the submodules [are correctly installed](https://git-scm.com/book/en/v2/Git-Tools-Submodules) 
+
 ## Instantiate and serve the network
 
 ```sh
