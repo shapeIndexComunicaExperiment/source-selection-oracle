@@ -2,522 +2,554 @@
   "interactive-discover-1": {
     "v0": {
       "n_results": 6,
-      "n_http_requests": 6,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 93.6519580000022,
-        "min": 93.6519580000022,
-        "max": 93.6519580000022,
-        "std": null
+        "average": 176.48365189999896,
+        "min": 167.96384100000432,
+        "max": 182.98767199998838,
+        "std": 6.576533930650188
       }
     },
     "v1": {
       "n_results": 4,
-      "n_http_requests": 1,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 33.438914000002114,
-        "min": 33.438914000002114,
-        "max": 33.438914000002114,
-        "std": null
+        "average": 69.64714940000121,
+        "min": 65.83423799999582,
+        "max": 79.5713609999948,
+        "std": 4.721433966976677
       }
     },
     "v2": {
       "n_results": 1,
-      "n_http_requests": 1,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 27.623505999999907,
-        "min": 27.623505999999907,
-        "max": 27.623505999999907,
-        "std": null
+        "average": 68.3449553999977,
+        "min": 65.38363799999934,
+        "max": 72.25185600000259,
+        "std": 3.5358301429055996
       }
     },
     "v3": {
       "n_results": 14,
-      "n_http_requests": 14,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 110.6591499999995,
-        "min": 110.6591499999995,
-        "max": 110.6591499999995,
-        "std": null
+        "average": 319.8781900000016,
+        "min": 303.2524540000013,
+        "max": 339.72442499999306,
+        "std": 16.64560278491869
       }
     },
     "v4": {
       "n_results": 8,
-      "n_http_requests": 5,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 60.906763999999384,
-        "min": 60.906763999999384,
-        "max": 60.906763999999384,
-        "std": null
+        "average": 162.34409210000013,
+        "min": 153.64864499999385,
+        "max": 173.4662260000041,
+        "std": 8.152907200480598
       }
     }
   },
   "interactive-discover-2": {
     "v0": {
       "n_results": 66,
-      "n_http_requests": 45,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 356.8959990000003,
-        "min": 356.8959990000003,
-        "max": 356.8959990000003,
-        "std": null
+        "average": 1011.4182253999985,
+        "min": 903.7551590000076,
+        "max": 1085.81184699999,
+        "std": 56.459094966658334
       }
     },
     "v1": {
       "n_results": 46,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 46.78182499999821,
-        "min": 46.78182499999821,
-        "max": 46.78182499999821,
-        "std": null
+        "average": 139.83796750000184,
+        "min": 133.66494099999545,
+        "max": 154.8069220000034,
+        "std": 7.2063008520279235
       }
     },
     "v2": {
       "n_results": 32,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 56.06128499999977,
-        "min": 56.06128499999977,
-        "max": 56.06128499999977,
-        "std": null
+        "average": 128.40942329999817,
+        "min": 122.5473939999938,
+        "max": 135.98441200000525,
+        "std": 5.364171178882993
       }
     },
     "v3": {
       "n_results": 198,
-      "n_http_requests": 198,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 1771.6258119999984,
-        "min": 1771.6258119999984,
-        "max": 1771.6258119999984,
-        "std": null
+        "average": 4350.8642605000005,
+        "min": 4097.674891999995,
+        "max": 4619.524187000003,
+        "std": 185.08770399873333
       }
     },
     "v4": {
       "n_results": 98,
-      "n_http_requests": 51,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 430.0321330000006,
-        "min": 430.0321330000006,
-        "max": 430.0321330000006,
-        "std": null
+        "average": 1157.5011512999977,
+        "min": 1043.7667619999993,
+        "max": 1301.2156699999905,
+        "std": 101.51354065769797
       }
     }
   },
   "interactive-discover-3": {
     "v0": {
       "n_results": 71,
-      "n_http_requests": 93,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 473.0675259999989,
-        "min": 473.0675259999989,
-        "max": 473.0675259999989,
-        "std": null
+        "average": 1317.9875516000016,
+        "min": 1243.5103300000046,
+        "max": 1365.6664719999972,
+        "std": 46.42976585257327
       }
     },
     "v1": {
       "n_results": 67,
-      "n_http_requests": 69,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 337.2039449999975,
-        "min": 337.2039449999975,
-        "max": 337.2039449999975,
-        "std": null
+        "average": 962.9645486999973,
+        "min": 916.2075869999971,
+        "max": 997.2007279999962,
+        "std": 22.060620215912895
       }
     },
     "v2": {
       "n_results": 55,
-      "n_http_requests": 57,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 265.54369399999996,
-        "min": 265.54369399999996,
-        "max": 265.54369399999996,
-        "std": null
+        "average": 800.146617699998,
+        "min": 751.4035370000056,
+        "max": 832.972941999993,
+        "std": 23.422273200535475
       }
     },
     "v3": {
       "n_results": 203,
-      "n_http_requests": 264,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 1474.8351939999993,
-        "min": 1474.8351939999993,
-        "max": 1474.8351939999993,
-        "std": null
+        "average": 3954.4537223999987,
+        "min": 3746.5785319999995,
+        "max": 4041.395306999999,
+        "std": 89.63193411573728
       }
     },
     "v4": {
       "n_results": 142,
-      "n_http_requests": 165,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 1052.279075999999,
-        "min": 1052.279075999999,
-        "max": 1052.279075999999,
-        "std": null
+        "average": 2473.3165542000015,
+        "min": 2411.805563999995,
+        "max": 2531.9845910000004,
+        "std": 38.620175893225614
       }
     }
   },
   "interactive-discover-4": {
     "v0": {
       "n_results": 5,
-      "n_http_requests": 8,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 74.08861100000286,
-        "min": 74.08861100000286,
-        "max": 74.08861100000286,
-        "std": null
+        "average": 202.116668699999,
+        "min": 193.34853499999736,
+        "max": 211.19912699999986,
+        "std": 7.411726865468976
       }
     },
     "v1": {
       "n_results": 3,
-      "n_http_requests": 4,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 68.47391499999867,
-        "min": 68.47391499999867,
-        "max": 68.47391499999867,
-        "std": null
+        "average": 176.2500893000004,
+        "min": 167.95596799999475,
+        "max": 188.09999600000447,
+        "std": 6.811059757153415
       }
     },
     "v2": {
       "n_results": 3,
-      "n_http_requests": 4,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 56.88152600000103,
-        "min": 56.88152600000103,
-        "max": 56.88152600000103,
-        "std": null
+        "average": 165.94513620000072,
+        "min": 160.69326499999443,
+        "max": 172.85294600001362,
+        "std": 5.555059933139547
       }
     },
     "v3": {
       "n_results": 3,
-      "n_http_requests": 6,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 60.5642689999986,
-        "min": 60.5642689999986,
-        "max": 60.5642689999986,
-        "std": null
+        "average": 170.41594949999998,
+        "min": 165.1559949999937,
+        "max": 177.07737800000177,
+        "std": 5.738458853797749
       }
     },
     "v4": {
       "n_results": 7,
-      "n_http_requests": 13,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 100.09731599999941,
-        "min": 100.09731599999941,
-        "max": 100.09731599999941,
-        "std": null
+        "average": 300.7448974000014,
+        "min": 286.91736500000115,
+        "max": 316.6724990000075,
+        "std": 10.150527749090365
       }
     }
   },
   "interactive-discover-5": {
     "v0": {
       "n_results": 15,
-      "n_http_requests": 9,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 80.47298700000101,
-        "min": 80.47298700000101,
-        "max": 80.47298700000101,
-        "std": null
+        "average": 218.44335619999765,
+        "min": 210.72029899999325,
+        "max": 225.77885699999752,
+        "std": 6.992458742958905
       }
     },
     "v1": {
       "n_results": 3,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 40.67863999999827,
-        "min": 40.67863999999827,
-        "max": 40.67863999999827,
-        "std": null
+        "average": 105.08937959999894,
+        "min": 102.95324299999629,
+        "max": 106.70881999999983,
+        "std": 3.6871964468043212
       }
     },
     "v2": {
       "n_results": 3,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 39.03330599999754,
-        "min": 39.03330599999754,
-        "max": 39.03330599999754,
-        "std": null
+        "average": 98.28192570000101,
+        "min": 93.74248300000909,
+        "max": 101.88709299999755,
+        "std": 4.276303393236361
       }
     },
     "v3": {
       "n_results": 4,
-      "n_http_requests": 4,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 33.92620700000043,
-        "min": 33.92620700000043,
-        "max": 33.92620700000043,
-        "std": null
+        "average": 101.93646049999953,
+        "min": 99.64112800000294,
+        "max": 104.5862230000057,
+        "std": 3.661159344354326
       }
     },
     "v4": {
       "n_results": 20,
-      "n_http_requests": 16,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 113.16313699999955,
-        "min": 113.16313699999955,
-        "max": 113.16313699999955,
-        "std": null
+        "average": 339.56357320000245,
+        "min": 321.2693880000006,
+        "max": 359.3334840000025,
+        "std": 13.458501098115795
       }
     }
   },
   "interactive-discover-6": {
     "v1": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 38.761232000000746,
-        "min": 38.761232000000746,
-        "max": 38.761232000000746,
-        "std": null
+        "average": 101.16715299999923,
+        "min": 97.77667799999472,
+        "max": 105.3206979999959,
+        "std": 4.140637172749564
       }
     },
     "v2": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 39.45332299999791,
-        "min": 39.45332299999791,
-        "max": 39.45332299999791,
-        "std": null
+        "average": 92.71569040000323,
+        "min": 89.0371540000051,
+        "max": 96.93130100000417,
+        "std": 3.746217873076829
       }
     },
     "v3": {
       "n_results": 2,
-      "n_http_requests": 4,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 59.177261000000726,
-        "min": 59.177261000000726,
-        "max": 59.177261000000726,
-        "std": null
+        "average": 132.13142129999906,
+        "min": 126.79597099999955,
+        "max": 137.0070720000076,
+        "std": 4.779851623087972
       }
     },
     "v4": {
       "n_results": 27,
-      "n_http_requests": 54,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 400.8133720000005,
-        "min": 400.8133720000005,
-        "max": 400.8133720000005,
-        "std": null
+        "average": 1115.8881962,
+        "min": 989.3868780000048,
+        "max": 1203.6137600000075,
+        "std": 74.38455881830637
       }
     }
   },
   "interactive-discover-7": {
     "v1": {
       "n_results": 1,
-      "n_http_requests": 3,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 45.200182999997196,
-        "min": 45.200182999997196,
-        "max": 45.200182999997196,
-        "std": null
+        "average": 121.42034689999855,
+        "min": 117.50287599999865,
+        "max": 131.8449660000042,
+        "std": 6.262309697666988
       }
     },
     "v2": {
       "n_results": 1,
-      "n_http_requests": 3,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 46.28253499999846,
-        "min": 46.28253499999846,
-        "max": 46.28253499999846,
-        "std": null
+        "average": 111.41508370000084,
+        "min": 107.5804449999996,
+        "max": 116.05499400000554,
+        "std": 4.5663080106383385
       }
     },
     "v4": {
       "n_results": 1,
-      "n_http_requests": 3,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 48.20884400000068,
-        "min": 48.20884400000068,
-        "max": 48.20884400000068,
-        "std": null
+        "average": 116.19097480000201,
+        "min": 110.84414200000174,
+        "max": 129.89980600000126,
+        "std": 6.2694579738635525
       }
     }
   },
   "interactive-short-1": {
     "v0": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 61.51606900000115,
-        "min": 61.51606900000115,
-        "max": 61.51606900000115,
-        "std": null
+        "average": 131.08816369999985,
+        "min": 127.09091199999966,
+        "max": 133.26607699999295,
+        "std": 4.220358183742897
       }
     },
     "v1": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 64.35022200000094,
-        "min": 64.35022200000094,
-        "max": 64.35022200000094,
-        "std": null
+        "average": 130.49126229999965,
+        "min": 126.68222299999616,
+        "max": 132.62754299999506,
+        "std": 4.3964768669100405
       }
     },
     "v2": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 58.74642700000186,
-        "min": 58.74642700000186,
-        "max": 58.74642700000186,
-        "std": null
+        "average": 128.75746319999888,
+        "min": 124.80120600000373,
+        "max": 133.25710600000457,
+        "std": 4.296446063458951
       }
     },
     "v3": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 57.519163999997545,
-        "min": 57.519163999997545,
-        "max": 57.519163999997545,
-        "std": null
+        "average": 134.93549119999952,
+        "min": 132.00048499999684,
+        "max": 139.56034899999213,
+        "std": 4.468244501288791
       }
     },
     "v4": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 47.28743000000031,
-        "min": 47.28743000000031,
-        "max": 47.28743000000031,
-        "std": null
+        "average": 130.14254780000047,
+        "min": 128.45204099999683,
+        "max": 131.45735599999898,
+        "std": 3.8947578305931447
+      }
+    }
+  },
+  "interactive-short-3": {
+    "v0": {
+      "n_results": 0,
+      "n_http_requests": 0,
+      "execution_time": {
+        "average": 139.71494069999898,
+        "min": 135.2503710000019,
+        "max": 143.39450199999555,
+        "std": 4.624731801749606
+      }
+    },
+    "v1": {
+      "n_results": 0,
+      "n_http_requests": 0,
+      "execution_time": {
+        "average": 160.75539830000199,
+        "min": 156.11994299999787,
+        "max": 165.4950300000055,
+        "std": 5.387483431986967
+      }
+    },
+    "v2": {
+      "n_results": 0,
+      "n_http_requests": 0,
+      "execution_time": {
+        "average": 126.86830510000145,
+        "min": 122.28299200000765,
+        "max": 130.4161310000054,
+        "std": 4.378572802397836
+      }
+    },
+    "v3": {
+      "n_results": 0,
+      "n_http_requests": 0,
+      "execution_time": {
+        "average": 195.46376329999913,
+        "min": 190.32884000000195,
+        "max": 205.3986089999962,
+        "std": 6.892412371960233
+      }
+    },
+    "v4": {
+      "n_results": 6,
+      "n_http_requests": 0,
+      "execution_time": {
+        "average": 557.5952000999998,
+        "min": 532.5552699999971,
+        "max": 566.6142180000024,
+        "std": 12.185021414979628
       }
     }
   },
   "interactive-short-4": {
     "v0": {
       "n_results": 1,
-      "n_http_requests": 1,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 102.33600899999874,
-        "min": 102.33600899999874,
-        "max": 102.33600899999874,
-        "std": null
+        "average": 202.537574399999,
+        "min": 199.25803799999994,
+        "max": 209.36246400000528,
+        "std": 5.151734474738682
       }
     },
     "v1": {
       "n_results": 1,
-      "n_http_requests": 1,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 87.05262799999764,
-        "min": 87.05262799999764,
-        "max": 87.05262799999764,
-        "std": null
+        "average": 225.84020330000203,
+        "min": 213.75598400000308,
+        "max": 247.09306600000127,
+        "std": 12.9768455985306
       }
     },
     "v2": {
       "n_results": 1,
-      "n_http_requests": 1,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 23.114886999999726,
-        "min": 23.114886999999726,
-        "max": 23.114886999999726,
-        "std": null
+        "average": 64.46563290000195,
+        "min": 61.27982999999949,
+        "max": 66.02722899999935,
+        "std": 3.0031126059420226
       }
     },
     "v3": {
       "n_results": 1,
-      "n_http_requests": 1,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 21.81484300000011,
-        "min": 21.81484300000011,
-        "max": 21.81484300000011,
-        "std": null
+        "average": 63.932589299998654,
+        "min": 61.948795999996946,
+        "max": 66.93133300000045,
+        "std": 3.0082455012447027
       }
     },
     "v4": {
       "n_results": 1,
-      "n_http_requests": 1,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 70.2256039999993,
-        "min": 70.2256039999993,
-        "max": 70.2256039999993,
-        "std": null
+        "average": 179.9980944999974,
+        "min": 175.35154099999636,
+        "max": 196.26958300000115,
+        "std": 7.196961519029232
       }
     }
   },
   "interactive-short-5": {
     "v0": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 68.8236160000015,
-        "min": 68.8236160000015,
-        "max": 68.8236160000015,
-        "std": null
+        "average": 171.82659360000252,
+        "min": 168.53881399999955,
+        "max": 178.23044300000765,
+        "std": 5.338515925406543
       }
     },
     "v1": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 89.99177599999894,
-        "min": 89.99177599999894,
-        "max": 89.99177599999894,
-        "std": null
+        "average": 255.71696289999818,
+        "min": 244.62810800000443,
+        "max": 272.3520129999961,
+        "std": 9.896266748062903
       }
     },
     "v2": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 192.47399900000164,
-        "min": 192.47399900000164,
-        "max": 192.47399900000164,
-        "std": null
+        "average": 515.4622443999993,
+        "min": 502.6770919999981,
+        "max": 530.7590560000099,
+        "std": 11.522411874521055
       }
     },
     "v3": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 35.30487700000231,
-        "min": 35.30487700000231,
-        "max": 35.30487700000231,
-        "std": null
+        "average": 104.3119789999997,
+        "min": 100.58888199999637,
+        "max": 109.45248900000297,
+        "std": 4.197032919777897
       }
     },
     "v4": {
       "n_results": 1,
-      "n_http_requests": 2,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 73.92407800000001,
-        "min": 73.92407800000001,
-        "max": 73.92407800000001,
-        "std": null
+        "average": 202.40987490000117,
+        "min": 198.89836200000718,
+        "max": 205.1079549999995,
+        "std": 5.308283608948682
       }
     }
   },
   "interactive-short-7": {
     "v2": {
       "n_results": 0,
-      "n_http_requests": 1,
+      "n_http_requests": 0,
       "execution_time": {
-        "average": 141.30366100000174,
-        "min": 141.30366100000174,
-        "max": 141.30366100000174,
-        "std": null
-      }
-    },
-    "v3": {
-      "n_results": 0,
-      "n_http_requests": 1,
-      "execution_time": {
-        "average": 135.7638560000014,
-        "min": 135.7638560000014,
-        "max": 135.7638560000014,
-        "std": null
-      }
-    },
-    "v4": {
-      "n_results": 0,
-      "n_http_requests": 1,
-      "execution_time": {
-        "average": 54.77628000000186,
-        "min": 54.77628000000186,
-        "max": 54.77628000000186,
-        "std": null
+        "average": 339.4630713999999,
+        "min": 317.6732619999966,
+        "max": 378.17103099999076,
+        "std": 19.257999083820142
       }
     }
   }
